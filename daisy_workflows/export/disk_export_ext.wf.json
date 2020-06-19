@@ -82,7 +82,8 @@
           "networkInterfaces": [
             {
               "network": "${export_network}",
-              "subnetwork": "${export_subnet}"
+              "subnetwork": "${export_subnet}",
+              "accessConfigs": []
             }
           ],
           "RetryWhenExternalIPDenied": true,
